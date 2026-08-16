@@ -24,10 +24,28 @@ from collections import Counter, defaultdict
 from pathlib import Path
 import math
 
-CACHE_DIR = Path(
-    "/home/aladaf/.cache/huggingface/hub/datasets--allenai--WildChat-4.8M"
-    "/snapshots/c827c6df8fcf008219ffaffa4d1dd77491099367/data"
-)
+import glob as _glob
+import os as _os
+
+def _resolve_wildchat_dir():
+    """Locate the WildChat-4.8M parquet directory.
+
+    Priority: WILDCHAT_DIR env var; otherwise the default Hugging Face cache
+    (any snapshot hash). Download first with:
+      huggingface-cli download allenai/WildChat-4.8M --repo-type dataset
+    """
+    env = _os.environ.get("WILDCHAT_DIR")
+    if env:
+        return Path(env)
+    hf_home = _os.environ.get("HF_HOME", str(Path.home() / ".cache" / "huggingface"))
+    hits = _glob.glob(hf_home + "/hub/datasets--allenai--WildChat-4.8M/snapshots/*/data")
+    if not hits:
+        raise FileNotFoundError(
+            "WildChat-4.8M cache not found. Set WILDCHAT_DIR or download the "
+            "dataset (see REPRODUCING.md).")
+    return Path(sorted(hits)[-1])
+
+CACHE_DIR = _resolve_wildchat_dir()
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
 RESULTS_FILE = DATA_DIR / "failure_by_model_results.json"

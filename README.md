@@ -32,6 +32,10 @@ No raw conversation data is redistributed here. Both corpora are publicly availa
 | `13_lmsys_per_model.py` | Per-individual-model rates on LMSYS (Supplementary Table S2) |
 | `figures/figure1_ceiling.py`, `figures/figure2_paradox.py` | Paper figures (95% CI error bars), generated from `data/*.json` |
 
+## Reproducing
+
+See **[REPRODUCING.md](REPRODUCING.md)** for the exact end-to-end sequence (prerequisites, gated-data access, run order, expected runtimes, and the mapping from each script to each table and figure in the paper).
+
 ## Running
 
 ```bash
