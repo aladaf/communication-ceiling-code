@@ -3,7 +3,7 @@ message: "If you use this code, please cite the paper below."
 title: "The Communication Ceiling — Analysis Code"
 authors:
   - family-names: "da Fonseca"
-    given-names: "André Luiz Alves"
+    given-names: "André Luís Araujo"
     affiliation: "COPPEAD, Universidade Federal do Rio de Janeiro"
   - family-names: "Chimenti"
     given-names: "Paula"
@@ -15,7 +15,7 @@ preferred-citation:
   title: "The Communication Ceiling: Neither Capability Nor Experience Reduces Failure in Human-AI Chat"
   authors:
     - family-names: "da Fonseca"
-      given-names: "André Luiz Alves"
+      given-names: "André Luís Araujo"
     - family-names: "Chimenti"
       given-names: "Paula"
   journal: "Frontiers in Artificial Intelligence"
