@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "dataset": "WildChat-4.8M",
+    "user_id_column": "hashed_ip",
+    "total_unique_users": 950594,
+    "total_multi_turn": 246642
+  },
+  "user_experience_distribution": {
+    "1": 879722,
+    "11-30": 7244,
+    "4-10": 21448,
+    "100+": 714,
+    "31-100": 2506,
+    "2-3": 38960
+  },
+  "exp_stats": {
+    "11-30": {
+      "6-10": {
+        "total": 6062,
+        "with_failure": 1216,
+        "prompt_words_sum": 3496658,
+        "prompt_ttr_sum": 4801.346753581447
+      },
+      "2-3": {
+        "total": 20100,
+        "with_failure": 620,
+        "prompt_words_sum": 11587845,
+        "prompt_ttr_sum": 15848.263974647918
+      },
+      "4-5": {
+        "total": 7147,
+        "with_failure": 932,
+        "prompt_words_sum": 4552930,
+        "prompt_ttr_sum": 5655.651699793285
+      },
+      "11+": {
+        "total": 2890,
+        "with_failure": 927,
+        "prompt_words_sum": 2849092,
+        "prompt_ttr_sum": 2295.1414761958067
+      }
+    },
+    "4-10": {
+      "2-3": {
+        "total": 22074,
+        "with_failure": 597,
+        "prompt_words_sum": 10275178,
+        "prompt_ttr_sum": 17737.301101213736
+      },
+      "4-5": {
+        "total": 8010,
+        "with_failure": 983,
+        "prompt_words_sum": 4380844,
+        "prompt_ttr_sum": 6458.220882909555
+      },
+      "11+": {
+        "total": 3449,
+        "with_failure": 1040,
+        "prompt_words_sum": 2359043,
+        "prompt_ttr_sum": 2769.877964988667
+      },
+      "6-10": {
+        "total": 6898,
+        "with_failure": 1360,
+        "prompt_words_sum": 2776016,
+        "prompt_ttr_sum": 5551.521050378072
+      }
+    },
+    "1": {
+      "2-3": {
+        "total": 23871,
+        "with_failure": 593,
+        "prompt_words_sum": 3834887,
+        "prompt_ttr_sum": 20659.409419243664
+      },
+      "6-10": {
+        "total": 4959,
+        "with_failure": 898,
+        "prompt_words_sum": 809757,
+        "prompt_ttr_sum": 4257.364533079809
+      },
+      "4-5": {
+        "total": 6981,
+        "with_failure": 742,
+        "prompt_words_sum": 1119843,
+        "prompt_ttr_sum": 6011.399427059863
+      },
+      "11+": {
+        "total": 2093,
+        "with_failure": 539,
+        "prompt_words_sum": 556805,
+        "prompt_ttr_sum": 1745.74091819776
+      }
+    },
+    "100+": {
+      "2-3": {
+        "total": 37905,
+        "with_failure": 912,
+        "prompt_words_sum": 51367550,
+        "prompt_ttr_sum": 28922.006003583218
+      },
+      "6-10": {
+        "total": 9779,
+        "with_failure": 1736,
+        "prompt_words_sum": 27436281,
+        "prompt_ttr_sum": 7198.612609829984
+      },
+      "4-5": {
+        "total": 12552,
+        "with_failure": 1506,
+        "prompt_words_sum": 29869716,
+        "prompt_ttr_sum": 9254.349222683293
+      },
+      "11+": {
+        "total": 4468,
+        "with_failure": 1361,
+        "prompt_words_sum": 8711492,
+        "prompt_ttr_sum": 3284.955521690121
+      }
+    },
+    "2-3": {
+      "4-5": {
+        "total": 6304,
+        "with_failure": 794,
+        "prompt_words_sum": 1755505,
+        "prompt_ttr_sum": 5283.454902860726
+      },
+      "2-3": {
+        "total": 18381,
+        "with_failure": 560,
+        "prompt_words_sum": 5015963,
+        "prompt_ttr_sum": 15328.08201267393
+      },
+      "6-10": {
+        "total": 5158,
+        "with_failure": 1029,
+        "prompt_words_sum": 1789980,
+        "prompt_ttr_sum": 4298.937207606879
+      },
+      "11+": {
+        "total": 2424,
+        "with_failure": 746,
+        "prompt_words_sum": 892200,
+        "prompt_ttr_sum": 1993.733847033487
+      }
+    },
+    "31-100": {
+      "2-3": {
+        "total": 20060,
+        "with_failure": 582,
+        "prompt_words_sum": 12515974,
+        "prompt_ttr_sum": 15828.189871550878
+      },
+      "4-5": {
+        "total": 6742,
+        "with_failure": 879,
+        "prompt_words_sum": 3931461,
+        "prompt_ttr_sum": 5272.248967683284
+      },
+      "11+": {
+        "total": 2795,
+        "with_failure": 850,
+        "prompt_words_sum": 2244851,
+        "prompt_ttr_sum": 2204.7156755550145
+      },
+      "6-10": {
+        "total": 5540,
+        "with_failure": 1026,
+        "prompt_words_sum": 2964979,
+        "prompt_ttr_sum": 4355.0236808979225
+      }
+    }
+  }
+}

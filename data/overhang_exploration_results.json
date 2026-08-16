@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "dataset": "WildChat-4.8M",
+    "filter": "English only",
+    "files_processed": 86,
+    "total_conversations": 1679371,
+    "total_skipped": 0,
+    "elapsed_seconds": 1057.8,
+    "mode": "full"
+  },
+  "tier_order": [
+    "gpt-3.5",
+    "gpt-4",
+    "gpt-4o-mini",
+    "gpt-4.1-mini",
+    "gpt-4o",
+    "o1"
+  ],
+  "model_to_tier": {
+    "gpt-3.5-turbo-0301": "gpt-3.5",
+    "gpt-3.5-turbo-0613": "gpt-3.5",
+    "gpt-3.5-turbo-0125": "gpt-3.5",
+    "gpt-4-0314": "gpt-4",
+    "gpt-4-0613": "gpt-4",
+    "gpt-4-1106-preview": "gpt-4",
+    "gpt-4-0125-preview": "gpt-4",
+    "gpt-4-turbo-2024-04-09": "gpt-4",
+    "gpt-4o-2024-05-13": "gpt-4o",
+    "gpt-4o-2024-08-06": "gpt-4o",
+    "gpt-4o-2024-11-20": "gpt-4o",
+    "gpt-4o-mini-2024-07-18": "gpt-4o-mini",
+    "gpt-4.1-mini-2025-04-14": "gpt-4.1-mini",
+    "o1-mini-2024-09-12": "o1",
+    "o1-preview-2024-09-12": "o1"
+  },
+  "summaries": {
+    "gpt-3.5": {
+      "n": 403872,
+      "mean_first_prompt_words": 241.3,
+      "std_first_prompt_words": 352.1,
+      "median_first_prompt_words_bucket": "500",
+      "mean_user_total_words": 275.7,
+      "mean_n_user_turns": 1.87,
+      "turn_distribution": {
+        "1": 296523,
+        "2": 42516,
+        "3": 21473,
+        "5": 20671,
+        "10": 16541,
+        "20": 5295,
+        "20+": 853
+      },
+      "mean_ttr": 0.6297,
+      "bloom_distribution": {
+        "L1_remember": 27056,
+        "L2_understand": 9581,
+        "L3_apply": 94028,
+        "L4_analyze": 4426,
+        "L5_evaluate": 8953,
+        "L6_create": 152605,
+        "unclassified": 107223
+      },
+      "bloom_pct": {
+        "L1_remember": 6.7,
+        "L2_understand": 2.4,
+        "L3_apply": 23.3,
+        "L4_analyze": 1.1,
+        "L5_evaluate": 2.2,
+        "L6_create": 37.8,
+        "unclassified": 26.5
+      },
+      "mean_assistant_total_words": 390.0,
+      "mean_word_ratio": 7.1,
+      "word_ratio_distribution": {
+        "0.5": 57960,
+        "1": 130950,
+        "2": 48991,
+        "5": 47461,
+        "10": 37914,
+        "20": 37582,
+        "50": 34417,
+        "100": 7408,
+        "100+": 1189
+      }
+    },
+    "gpt-4": {
+      "n": 132046,
+      "mean_first_prompt_words": 565.7,
+      "std_first_prompt_words": 2590.1,
+      "median_first_prompt_words_bucket": "50",
+      "mean_user_total_words": 730.6,
+      "mean_n_user_turns": 2.33,
+      "turn_distribution": {
+        "1": 81428,
+        "2": 20777,
+        "3": 9847,
+        "5": 9328,
+        "10": 7308,
+        "20": 2583,
+        "20+": 775
+      },
+      "mean_ttr": 0.6689,
+      "bloom_distribution": {
+        "L1_remember": 8878,
+        "L2_understand": 4480,
+        "L3_apply": 54020,
+        "L4_analyze": 1927,
+        "L5_evaluate": 4026,
+        "L6_create": 20734,
+        "unclassified": 37981
+      },
+      "bloom_pct": {
+        "L1_remember": 6.7,
+        "L2_understand": 3.4,
+        "L3_apply": 40.9,
+        "L4_analyze": 1.5,
+        "L5_evaluate": 3.0,
+        "L6_create": 15.7,
+        "unclassified": 28.8
+      },
+      "mean_assistant_total_words": 731.0,
+      "mean_word_ratio": 13.17,
+      "word_ratio_distribution": {
+        "0.5": 20533,
+        "1": 11935,
+        "2": 12330,
+        "5": 19609,
+        "10": 19013,
+        "20": 19906,
+        "50": 21970,
+        "100": 5778,
+        "100+": 972
+      }
+    },
+    "gpt-4o-mini": {
+      "n": 310387,
+      "mean_first_prompt_words": 555.6,
+      "std_first_prompt_words": 3151.4,
+      "median_first_prompt_words_bucket": "20",
+      "mean_user_total_words": 619.8,
+      "mean_n_user_turns": 1.42,
+      "turn_distribution": {
+        "1": 282611,
+        "2": 9148,
+        "3": 5345,
+        "5": 5639,
+        "10": 4676,
+        "20": 2023,
+        "20+": 945
+      },
+      "mean_ttr": 0.6392,
+      "bloom_distribution": {
+        "L1_remember": 21256,
+        "L2_understand": 15654,
+        "L3_apply": 72041,
+        "L4_analyze": 3710,
+        "L5_evaluate": 10621,
+        "L6_create": 44739,
+        "unclassified": 142366
+      },
+      "bloom_pct": {
+        "L1_remember": 6.8,
+        "L2_understand": 5.0,
+        "L3_apply": 23.2,
+        "L4_analyze": 1.2,
+        "L5_evaluate": 3.4,
+        "L6_create": 14.4,
+        "unclassified": 45.9
+      },
+      "mean_assistant_total_words": 266.4,
+      "mean_word_ratio": 3.67,
+      "word_ratio_distribution": {
+        "0.5": 146138,
+        "1": 48014,
+        "2": 39171,
+        "5": 34545,
+        "10": 20760,
+        "20": 9189,
+        "50": 8862,
+        "100": 2747,
+        "100+": 961
+      }
+    },
+    "gpt-4.1-mini": {
+      "n": 310405,
+      "mean_first_prompt_words": 1182.7,
+      "std_first_prompt_words": 3458.4,
+      "median_first_prompt_words_bucket": "1000+",
+      "mean_user_total_words": 1234.0,
+      "mean_n_user_turns": 1.22,
+      "turn_distribution": {
+        "1": 296970,
+        "2": 4176,
+        "3": 2502,
+        "5": 2644,
+        "10": 2475,
+        "20": 1081,
+        "20+": 557
+      },
+      "mean_ttr": 0.4272,
+      "bloom_distribution": {
+        "L1_remember": 4143,
+        "L2_understand": 2079,
+        "L3_apply": 32830,
+        "L4_analyze": 5798,
+        "L5_evaluate": 1805,
+        "L6_create": 145724,
+        "unclassified": 118026
+      },
+      "bloom_pct": {
+        "L1_remember": 1.3,
+        "L2_understand": 0.7,
+        "L3_apply": 10.6,
+        "L4_analyze": 1.9,
+        "L5_evaluate": 0.6,
+        "L6_create": 46.9,
+        "unclassified": 38.0
+      },
+      "mean_assistant_total_words": 190.5,
+      "mean_word_ratio": 1.57,
+      "word_ratio_distribution": {
+        "0.5": 172226,
+        "1": 50178,
+        "2": 66073,
+        "5": 8451,
+        "10": 4532,
+        "20": 4025,
+        "50": 3584,
+        "100+": 348,
+        "100": 988
+      }
+    },
+    "gpt-4o": {
+      "n": 458585,
+      "mean_first_prompt_words": 667.4,
+      "std_first_prompt_words": 2767.8,
+      "median_first_prompt_words_bucket": "500",
+      "mean_user_total_words": 722.2,
+      "mean_n_user_turns": 1.41,
+      "turn_distribution": {
+        "1": 411121,
+        "2": 17295,
+        "3": 9312,
+        "5": 9454,
+        "10": 7396,
+        "20": 2995,
+        "20+": 1012
+      },
+      "mean_ttr": 0.5691,
+      "bloom_distribution": {
+        "L1_remember": 17845,
+        "L2_understand": 17560,
+        "L3_apply": 94843,
+        "L4_analyze": 11096,
+        "L5_evaluate": 13691,
+        "L6_create": 250408,
+        "unclassified": 53142
+      },
+      "bloom_pct": {
+        "L1_remember": 3.9,
+        "L2_understand": 3.8,
+        "L3_apply": 20.7,
+        "L4_analyze": 2.4,
+        "L5_evaluate": 3.0,
+        "L6_create": 54.6,
+        "unclassified": 11.6
+      },
+      "mean_assistant_total_words": 350.5,
+      "mean_word_ratio": 4.08,
+      "word_ratio_distribution": {
+        "0.5": 250877,
+        "1": 72317,
+        "2": 24717,
+        "5": 40059,
+        "10": 27893,
+        "20": 17609,
+        "50": 17696,
+        "100": 6086,
+        "100+": 1331
+      }
+    },
+    "o1": {
+      "n": 64076,
+      "mean_first_prompt_words": 1051.9,
+      "std_first_prompt_words": 3134.4,
+      "median_first_prompt_words_bucket": "1000+",
+      "mean_user_total_words": 1051.9,
+      "mean_n_user_turns": 1.0,
+      "turn_distribution": {
+        "1": 64076
+      },
+      "mean_ttr": 0.5598,
+      "bloom_distribution": {
+        "L1_remember": 4518,
+        "L2_understand": 1713,
+        "L3_apply": 25494,
+        "L4_analyze": 1019,
+        "L5_evaluate": 3344,
+        "L6_create": 13671,
+        "unclassified": 14317
+      },
+      "bloom_pct": {
+        "L1_remember": 7.1,
+        "L2_understand": 2.7,
+        "L3_apply": 39.8,
+        "L4_analyze": 1.6,
+        "L5_evaluate": 5.2,
+        "L6_create": 21.3,
+        "unclassified": 22.3
+      },
+      "mean_assistant_total_words": 888.6,
+      "mean_word_ratio": 15.58,
+      "word_ratio_distribution": {
+        "0.5": 11186,
+        "1": 6415,
+        "2": 10512,
+        "5": 10773,
+        "10": 6572,
+        "20": 5756,
+        "50": 7023,
+        "100": 3895,
+        "100+": 1944
+      }
+    }
+  },
+  "raw_stats": {
+    "gpt-3.5": {
+      "count": 403872,
+      "bloom_counts": {
+        "L3_apply": 94028,
+        "unclassified": 107223,
+        "L6_create": 152605,
+        "L2_understand": 9581,
+        "L1_remember": 27056,
+        "L5_evaluate": 8953,
+        "L4_analyze": 4426
+      },
+      "turn_hist": {
+        "1": 296523,
+        "3": 21473,
+        "5": 20671,
+        "10": 16541,
+        "2": 42516,
+        "20": 5295,
+        "20+": 853
+      },
+      "prompt_word_hist": {
+        "20": 43631,
+        "50": 54898,
+        "10": 37221,
+        "1000": 16954,
+        "5": 25370,
+        "200": 28199,
+        "100": 43842,
+        "500": 146950,
+        "1000+": 6807
+      },
+      "word_ratio_hist": {
+        "10": 37914,
+        "20": 37582,
+        "1": 130950,
+        "50": 34417,
+        "100": 7408,
+        "5": 47461,
+        "2": 48991,
+        "0.5": 57960,
+        "100+": 1189
+      }
+    },
+    "gpt-4": {
+      "count": 132046,
+      "bloom_counts": {
+        "L1_remember": 8878,
+        "unclassified": 37981,
+        "L3_apply": 54020,
+        "L6_create": 20734,
+        "L5_evaluate": 4026,
+        "L2_understand": 4480,
+        "L4_analyze": 1927
+      },
+      "turn_hist": {
+        "1": 81428,
+        "10": 7308,
+        "3": 9847,
+        "2": 20777,
+        "5": 9328,
+        "20": 2583,
+        "20+": 775
+      },
+      "prompt_word_hist": {
+        "50": 26029,
+        "10": 15168,
+        "5": 10128,
+        "200": 12169,
+        "500": 12118,
+        "100": 17298,
+        "20": 21058,
+        "1000+": 11005,
+        "1000": 7073
+      },
+      "word_ratio_hist": {
+        "5": 19609,
+        "10": 19013,
+        "20": 19906,
+        "50": 21970,
+        "2": 12330,
+        "0.5": 20533,
+        "1": 11935,
+        "100": 5778,
+        "100+": 972
+      }
+    },
+    "gpt-4o-mini": {
+      "count": 310387,
+      "bloom_counts": {
+        "unclassified": 142366,
+        "L6_create": 44739,
+        "L1_remember": 21256,
+        "L3_apply": 72041,
+        "L2_understand": 15654,
+        "L4_analyze": 3710,
+        "L5_evaluate": 10621
+      },
+      "turn_hist": {
+        "2": 9148,
+        "1": 282611,
+        "5": 5639,
+        "3": 5345,
+        "20": 2023,
+        "10": 4676,
+        "20+": 945
+      },
+      "prompt_word_hist": {
+        "5": 20229,
+        "500": 58874,
+        "100": 45449,
+        "200": 25101,
+        "1000": 25458,
+        "10": 10693,
+        "50": 49934,
+        "1000+": 15728,
+        "20": 58921
+      },
+      "word_ratio_hist": {
+        "20": 9189,
+        "1": 48014,
+        "0.5": 146138,
+        "2": 39171,
+        "100": 2747,
+        "5": 34545,
+        "50": 8862,
+        "10": 20760,
+        "100+": 961
+      }
+    },
+    "gpt-4.1-mini": {
+      "count": 310405,
+      "bloom_counts": {
+        "L3_apply": 32830,
+        "unclassified": 118026,
+        "L5_evaluate": 1805,
+        "L6_create": 145724,
+        "L2_understand": 2079,
+        "L1_remember": 4143,
+        "L4_analyze": 5798
+      },
+      "turn_hist": {
+        "1": 296970,
+        "5": 2644,
+        "3": 2502,
+        "2": 4176,
+        "10": 2475,
+        "20": 1081,
+        "20+": 557
+      },
+      "prompt_word_hist": {
+        "50": 9559,
+        "20": 37905,
+        "5": 4280,
+        "100": 10798,
+        "10": 33242,
+        "200": 12076,
+        "1000": 31868,
+        "1000+": 112657,
+        "500": 58020
+      },
+      "word_ratio_hist": {
+        "5": 8451,
+        "10": 4532,
+        "20": 4025,
+        "2": 66073,
+        "100+": 348,
+        "1": 50178,
+        "50": 3584,
+        "0.5": 172226,
+        "100": 988
+      }
+    },
+    "gpt-4o": {
+      "count": 458585,
+      "bloom_counts": {
+        "L3_apply": 94843,
+        "unclassified": 53142,
+        "L1_remember": 17845,
+        "L6_create": 250408,
+        "L2_understand": 17560,
+        "L5_evaluate": 13691,
+        "L4_analyze": 11096
+      },
+      "turn_hist": {
+        "1": 411121,
+        "5": 9454,
+        "2": 17295,
+        "3": 9312,
+        "20": 2995,
+        "20+": 1012,
+        "10": 7396
+      },
+      "prompt_word_hist": {
+        "100": 44165,
+        "10": 13496,
+        "5": 23326,
+        "20": 20502,
+        "50": 31125,
+        "200": 102929,
+        "1000+": 63760,
+        "1000": 47285,
+        "500": 111997
+      },
+      "word_ratio_hist": {
+        "0.5": 250877,
+        "20": 17609,
+        "10": 27893,
+        "5": 40059,
+        "1": 72317,
+        "2": 24717,
+        "50": 17696,
+        "100": 6086,
+        "100+": 1331
+      }
+    },
+    "o1": {
+      "count": 64076,
+      "bloom_counts": {
+        "unclassified": 14317,
+        "L3_apply": 25494,
+        "L1_remember": 4518,
+        "L2_understand": 1713,
+        "L6_create": 13671,
+        "L5_evaluate": 3344,
+        "L4_analyze": 1019
+      },
+      "turn_hist": {
+        "1": 64076
+      },
+      "prompt_word_hist": {
+        "10": 4364,
+        "20": 6488,
+        "5": 2840,
+        "50": 8713,
+        "500": 10008,
+        "100": 5945,
+        "200": 5569,
+        "1000": 6465,
+        "1000+": 13684
+      },
+      "word_ratio_hist": {
+        "20": 5756,
+        "50": 7023,
+        "100": 3895,
+        "100+": 1944,
+        "5": 10773,
+        "2": 10512,
+        "10": 6572,
+        "0.5": 11186,
+        "1": 6415
+      }
+    }
+  }
+}

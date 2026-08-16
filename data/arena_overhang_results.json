@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "dataset": "lmsys/chatbot_arena_conversations",
+    "total": 33000,
+    "english": 29206,
+    "classified": 28275,
+    "elapsed_seconds": 14.3
+  },
+  "gap_stats": {
+    "1": {
+      "total": 13798,
+      "stronger_wins": 7005,
+      "tie": 4218,
+      "weaker_wins": 2575,
+      "prompt_words_sum": 453066
+    },
+    "0": {
+      "total": 7849,
+      "stronger_wins": 0,
+      "tie": 2771,
+      "weaker_wins": 0,
+      "prompt_words_sum": 242666
+    },
+    "2": {
+      "total": 5303,
+      "stronger_wins": 3642,
+      "tie": 1093,
+      "weaker_wins": 568,
+      "prompt_words_sum": 179858
+    },
+    "3": {
+      "total": 1325,
+      "stronger_wins": 1067,
+      "tie": 162,
+      "weaker_wins": 96,
+      "prompt_words_sum": 41071
+    }
+  },
+  "gap_bloom_stats": {
+    "1": {
+      "L2_understand": {
+        "total": 778,
+        "stronger_wins": 431,
+        "tie": 219,
+        "weaker_wins": 128
+      },
+      "unclassified": {
+        "total": 5703,
+        "stronger_wins": 2790,
+        "tie": 1794,
+        "weaker_wins": 1119
+      },
+      "L5_evaluate": {
+        "total": 480,
+        "stronger_wins": 257,
+        "tie": 136,
+        "weaker_wins": 87
+      },
+      "L3_apply": {
+        "total": 3598,
+        "stronger_wins": 1882,
+        "tie": 1087,
+        "weaker_wins": 629
+      },
+      "L6_create": {
+        "total": 430,
+        "stronger_wins": 216,
+        "tie": 133,
+        "weaker_wins": 81
+      },
+      "L1_remember": {
+        "total": 2543,
+        "stronger_wins": 1280,
+        "tie": 781,
+        "weaker_wins": 482
+      },
+      "L4_analyze": {
+        "total": 266,
+        "stronger_wins": 149,
+        "tie": 68,
+        "weaker_wins": 49
+      }
+    },
+    "0": {
+      "unclassified": {
+        "total": 3251,
+        "stronger_wins": 0,
+        "tie": 1233,
+        "weaker_wins": 0
+      },
+      "L1_remember": {
+        "total": 1457,
+        "stronger_wins": 0,
+        "tie": 520,
+        "weaker_wins": 0
+      },
+      "L2_understand": {
+        "total": 452,
+        "stronger_wins": 0,
+        "tie": 126,
+        "weaker_wins": 0
+      },
+      "L3_apply": {
+        "total": 2053,
+        "stronger_wins": 0,
+        "tie": 705,
+        "weaker_wins": 0
+      },
+      "L5_evaluate": {
+        "total": 251,
+        "stronger_wins": 0,
+        "tie": 75,
+        "weaker_wins": 0
+      },
+      "L4_analyze": {
+        "total": 138,
+        "stronger_wins": 0,
+        "tie": 45,
+        "weaker_wins": 0
+      },
+      "L6_create": {
+        "total": 247,
+        "stronger_wins": 0,
+        "tie": 67,
+        "weaker_wins": 0
+      }
+    },
+    "2": {
+      "L3_apply": {
+        "total": 1399,
+        "stronger_wins": 988,
+        "tie": 263,
+        "weaker_wins": 148
+      },
+      "unclassified": {
+        "total": 2149,
+        "stronger_wins": 1444,
+        "tie": 490,
+        "weaker_wins": 215
+      },
+      "L2_understand": {
+        "total": 299,
+        "stronger_wins": 217,
+        "tie": 52,
+        "weaker_wins": 30
+      },
+      "L1_remember": {
+        "total": 992,
+        "stronger_wins": 680,
+        "tie": 207,
+        "weaker_wins": 105
+      },
+      "L5_evaluate": {
+        "total": 204,
+        "stronger_wins": 134,
+        "tie": 38,
+        "weaker_wins": 32
+      },
+      "L6_create": {
+        "total": 161,
+        "stronger_wins": 104,
+        "tie": 33,
+        "weaker_wins": 24
+      },
+      "L4_analyze": {
+        "total": 99,
+        "stronger_wins": 75,
+        "tie": 10,
+        "weaker_wins": 14
+      }
+    },
+    "3": {
+      "unclassified": {
+        "total": 564,
+        "stronger_wins": 436,
+        "tie": 69,
+        "weaker_wins": 59
+      },
+      "L1_remember": {
+        "total": 234,
+        "stronger_wins": 187,
+        "tie": 36,
+        "weaker_wins": 11
+      },
+      "L5_evaluate": {
+        "total": 45,
+        "stronger_wins": 40,
+        "tie": 1,
+        "weaker_wins": 4
+      },
+      "L3_apply": {
+        "total": 338,
+        "stronger_wins": 285,
+        "tie": 34,
+        "weaker_wins": 19
+      },
+      "L2_understand": {
+        "total": 82,
+        "stronger_wins": 69,
+        "tie": 10,
+        "weaker_wins": 3
+      },
+      "L4_analyze": {
+        "total": 18,
+        "stronger_wins": 15,
+        "tie": 3,
+        "weaker_wins": 0
+      },
+      "L6_create": {
+        "total": 44,
+        "stronger_wins": 35,
+        "tie": 9,
+        "weaker_wins": 0
+      }
+    }
+  },
+  "bloom_distribution": {
+    "L2_understand": 1611,
+    "unclassified": 11667,
+    "L5_evaluate": 980,
+    "L3_apply": 7388,
+    "L1_remember": 5226,
+    "L6_create": 882,
+    "L4_analyze": 521
+  },
+  "prompt_length_bins": {
+    "1-10": {
+      "total": 11465,
+      "tie": 3086
+    },
+    "26-50": {
+      "total": 3602,
+      "tie": 1209
+    },
+    "11-25": {
+      "total": 9222,
+      "tie": 2767
+    },
+    "51-100": {
+      "total": 1920,
+      "tie": 620
+    },
+    "101-200": {
+      "total": 1077,
+      "tie": 298
+    },
+    "200+": {
+      "total": 989,
+      "tie": 264
+    }
+  },
+  "unknown_models": {
+    "gpt4all-13b-snoozy": 931
+  }
+}

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "The Communication Ceiling — Analysis Code"
+authors:
+  - family-names: "da Fonseca"
+    given-names: "André Luiz Alves"
+    affiliation: "COPPEAD, Universidade Federal do Rio de Janeiro"
+  - family-names: "Chimenti"
+    given-names: "Paula"
+    affiliation: "COPPEAD, Universidade Federal do Rio de Janeiro"
+license: MIT
+repository-code: "https://github.com/aladaf/communication-ceiling-code"
+preferred-citation:
+  type: article
+  title: "The Communication Ceiling: Neither Capability Nor Experience Reduces Failure in Human-AI Chat"
+  authors:
+    - family-names: "da Fonseca"
+      given-names: "André Luiz Alves"
+    - family-names: "Chimenti"
+      given-names: "Paula"
+  journal: "Frontiers in Artificial Intelligence"
+  year: 2026
+  notes: "Under review"

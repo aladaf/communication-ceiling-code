@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "dataset": "WildChat-4.8M",
+    "filter": "English, multi-turn only (2+ user turns)",
+    "total_conversations": 1679371,
+    "multi_turn_conversations": 246642,
+    "elapsed_seconds": 399.0
+  },
+  "tier_stats": {
+    "gpt-4": {
+      "6-10": {
+        "total": 7308,
+        "with_any_failure": 1115,
+        "with_failure_markers": 60,
+        "with_refinement_chains": 1058,
+        "failure_marker_count_sum": 71
+      },
+      "3": {
+        "total": 9847,
+        "with_any_failure": 512,
+        "with_failure_markers": 52,
+        "with_refinement_chains": 461,
+        "failure_marker_count_sum": 55
+      },
+      "2": {
+        "total": 20777,
+        "with_any_failure": 58,
+        "with_failure_markers": 58,
+        "with_refinement_chains": 0,
+        "failure_marker_count_sum": 58
+      },
+      "4-5": {
+        "total": 9328,
+        "with_any_failure": 879,
+        "with_failure_markers": 68,
+        "with_refinement_chains": 814,
+        "failure_marker_count_sum": 71
+      },
+      "11+": {
+        "total": 3358,
+        "with_any_failure": 960,
+        "with_failure_markers": 46,
+        "with_refinement_chains": 925,
+        "failure_marker_count_sum": 55
+      }
+    },
+    "gpt-3.5": {
+      "3": {
+        "total": 21473,
+        "with_any_failure": 2325,
+        "with_failure_markers": 47,
+        "with_refinement_chains": 2282,
+        "failure_marker_count_sum": 49
+      },
+      "4-5": {
+        "total": 20671,
+        "with_any_failure": 3364,
+        "with_failure_markers": 78,
+        "with_refinement_chains": 3292,
+        "failure_marker_count_sum": 81
+      },
+      "6-10": {
+        "total": 16541,
+        "with_any_failure": 4141,
+        "with_failure_markers": 109,
+        "with_refinement_chains": 4050,
+        "failure_marker_count_sum": 113
+      },
+      "2": {
+        "total": 42516,
+        "with_any_failure": 51,
+        "with_failure_markers": 51,
+        "with_refinement_chains": 0,
+        "failure_marker_count_sum": 51
+      },
+      "11+": {
+        "total": 6148,
+        "with_any_failure": 2262,
+        "with_failure_markers": 69,
+        "with_refinement_chains": 2214,
+        "failure_marker_count_sum": 82
+      }
+    },
+    "gpt-4o": {
+      "4-5": {
+        "total": 9454,
+        "with_any_failure": 861,
+        "with_failure_markers": 68,
+        "with_refinement_chains": 798,
+        "failure_marker_count_sum": 78
+      },
+      "2": {
+        "total": 17295,
+        "with_any_failure": 59,
+        "with_failure_markers": 59,
+        "with_refinement_chains": 0,
+        "failure_marker_count_sum": 59
+      },
+      "3": {
+        "total": 9312,
+        "with_any_failure": 459,
+        "with_failure_markers": 40,
+        "with_refinement_chains": 419,
+        "failure_marker_count_sum": 42
+      },
+      "11+": {
+        "total": 4007,
+        "with_any_failure": 1036,
+        "with_failure_markers": 78,
+        "with_refinement_chains": 971,
+        "failure_marker_count_sum": 82
+      },
+      "6-10": {
+        "total": 7396,
+        "with_any_failure": 1066,
+        "with_failure_markers": 74,
+        "with_refinement_chains": 1002,
+        "failure_marker_count_sum": 75
+      }
+    },
+    "gpt-4o-mini": {
+      "2": {
+        "total": 9148,
+        "with_any_failure": 34,
+        "with_failure_markers": 34,
+        "with_refinement_chains": 0,
+        "failure_marker_count_sum": 34
+      },
+      "4-5": {
+        "total": 5639,
+        "with_any_failure": 543,
+        "with_failure_markers": 39,
+        "with_refinement_chains": 508,
+        "failure_marker_count_sum": 41
+      },
+      "3": {
+        "total": 5345,
+        "with_any_failure": 257,
+        "with_failure_markers": 32,
+        "with_refinement_chains": 226,
+        "failure_marker_count_sum": 35
+      },
+      "11+": {
+        "total": 2968,
+        "with_any_failure": 803,
+        "with_failure_markers": 71,
+        "with_refinement_chains": 749,
+        "failure_marker_count_sum": 90
+      },
+      "6-10": {
+        "total": 4676,
+        "with_any_failure": 636,
+        "with_failure_markers": 63,
+        "with_refinement_chains": 579,
+        "failure_marker_count_sum": 68
+      }
+    },
+    "gpt-4.1-mini": {
+      "4-5": {
+        "total": 2644,
+        "with_any_failure": 190,
+        "with_failure_markers": 18,
+        "with_refinement_chains": 173,
+        "failure_marker_count_sum": 23
+      },
+      "3": {
+        "total": 2502,
+        "with_any_failure": 99,
+        "with_failure_markers": 16,
+        "with_refinement_chains": 83,
+        "failure_marker_count_sum": 18
+      },
+      "2": {
+        "total": 4176,
+        "with_any_failure": 10,
+        "with_failure_markers": 10,
+        "with_refinement_chains": 0,
+        "failure_marker_count_sum": 10
+      },
+      "6-10": {
+        "total": 2475,
+        "with_any_failure": 307,
+        "with_failure_markers": 36,
+        "with_refinement_chains": 273,
+        "failure_marker_count_sum": 36
+      },
+      "11+": {
+        "total": 1638,
+        "with_any_failure": 403,
+        "with_failure_markers": 75,
+        "with_refinement_chains": 343,
+        "failure_marker_count_sum": 85
+      }
+    }
+  },
+  "model_stats": {
+    "gpt-4-0314": {
+      "total_multi": 9586,
+      "with_any_failure": 578
+    },
+    "gpt-3.5-turbo-0301": {
+      "total_multi": 35620,
+      "with_any_failure": 4537
+    },
+    "gpt-3.5-turbo-0613": {
+      "total_multi": 59670,
+      "with_any_failure": 6464
+    },
+    "gpt-4-1106-preview": {
+      "total_multi": 20079,
+      "with_any_failure": 1521
+    },
+    "gpt-3.5-turbo-0125": {
+      "total_multi": 12059,
+      "with_any_failure": 1142
+    },
+    "gpt-4-0125-preview": {
+      "total_multi": 15318,
+      "with_any_failure": 1063
+    },
+    "gpt-4-turbo-2024-04-09": {
+      "total_multi": 5635,
+      "with_any_failure": 362
+    },
+    "gpt-4o-2024-05-13": {
+      "total_multi": 18352,
+      "with_any_failure": 1348
+    },
+    "gpt-4o-mini-2024-07-18": {
+      "total_multi": 27776,
+      "with_any_failure": 2273
+    },
+    "gpt-4o-2024-08-06": {
+      "total_multi": 25811,
+      "with_any_failure": 1880
+    },
+    "gpt-4o-2024-11-20": {
+      "total_multi": 3301,
+      "with_any_failure": 253
+    },
+    "gpt-4.1-mini-2025-04-14": {
+      "total_multi": 13435,
+      "with_any_failure": 1009
+    }
+  }
+}
