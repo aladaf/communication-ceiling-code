@@ -2,7 +2,7 @@
 
 Analysis code and aggregate results for:
 
-> **The Communication Ceiling: Neither Capability Nor Experience Reduces Failure in Human–AI Chat.** Under review at *Frontiers in Artificial Intelligence* (Language and Computation).
+> **The Communication Ceiling: Neither Capability Nor Experience Reduces Repair Effort in Human–AI Chat.** Manuscript under submission.
 
 Three large-scale observational studies over ~2.5 million real human–AI conversations (WildChat-4.8M and LMSYS-Chat-1M) showing that the incidence of observable communicative repair plateaus beyond GPT-4-level capability and is invariant to user experience.
 
@@ -29,7 +29,7 @@ No raw conversation data is redistributed here. Both corpora are publicly availa
 | `10_rerun_wildchat_revision.py` | Revision reruns: cluster-robust SEs, temporal (prior-conversation) experience, per-model rates, prompt-length medians, MATTR-100 |
 | `11_build_validation_sample.py` | Builds the blinded 200-conversation human-validation sample and annotator workbooks |
 | `12_analyze_validation.py` | Inter-rater agreement (Cohen's κ), heuristic-vs-human precision/recall, repair-outcome analysis |
-| `13_lmsys_per_model.py` | Per-individual-model rates on LMSYS (Supplementary Table S2) |
+| `13_lmsys_per_model.py` | Per-individual-model rates on LMSYS (Appendix Table A.2) |
 | `figures/figure1_ceiling.py`, `figures/figure2_paradox.py` | Paper figures (95% CI error bars), generated from `data/*.json` |
 
 ## Reproducing

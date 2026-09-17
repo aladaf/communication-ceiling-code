@@ -43,13 +43,13 @@ Run in this order (later scripts read nothing from earlier ones except where not
 
 | Step | Command | Runtime* | Produces | Paper artifact |
 | --- | --- | --- | --- | --- |
-| 1 | `python scripts/03_failure_by_model.py` | ~7 min | `data/failure_by_model_results.json` | Table 1; per-model counts behind Supplementary Table S1 |
+| 1 | `python scripts/03_failure_by_model.py` | ~7 min | `data/failure_by_model_results.json` | Table 1; per-model counts behind Appendix Table A.1 |
 | 2 | `python scripts/04_failure_lmsys.py` | ~5 min (streams) | `data/lmsys_failure_results.json` | Tables 2-3 |
 | 3 | `python scripts/05_user_skill.py` | ~7 min | `data/user_skill_results.json` | Tables 4-5 (means, raw TTR) |
 | 4 | `python scripts/01_explore_overhang.py` | ~7 min | `data/overhang_exploration_results.json` | §4.3 (prompt length / turn counts by tier, o1 single-turn) |
 | 5 | `python scripts/02_explore_arena.py` | ~5 min (streams) | `data/arena_overhang_results.json` | background analysis (not reported in the paper) |
-| 6 | `python scripts/10_rerun_wildchat_revision.py` | ~5 min | `data/rerun_wildchat_results.json` | cluster-robust SEs (§3.5, §4.2, §6.2), temporal-experience re-operationalization (§6.2), prompt-length medians/IQR and MATTR-100 (Table 5), Supplementary Table S1 |
-| 7 | `python scripts/13_lmsys_per_model.py` | ~3 min | `data/lmsys_per_model_results.json` | Supplementary Table S2 |
+| 6 | `python scripts/10_rerun_wildchat_revision.py` | ~5 min | `data/rerun_wildchat_results.json` | cluster-robust SEs (§3.5, §4.2, §6.2), temporal-experience re-operationalization (§6.2), prompt-length medians/IQR and MATTR-100 (Table 5), Appendix Table A.1 |
+| 7 | `python scripts/13_lmsys_per_model.py` | ~3 min | `data/lmsys_per_model_results.json` | Appendix Table A.2 |
 | 8 | Level 1 steps 1-4 | seconds | — | all reported statistics and figures |
 
 \* Runtimes measured on a consumer laptop (WSL2) with the WildChat parquet cache on local disk.
