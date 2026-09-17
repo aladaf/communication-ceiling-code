@@ -12,12 +12,12 @@ license: MIT
 repository-code: "https://github.com/aladaf/communication-ceiling-code"
 preferred-citation:
   type: article
-  title: "The Communication Ceiling: Neither Capability Nor Experience Reduces Failure in Human-AI Chat"
+  title: "The Communication Ceiling: Neither Capability Nor Experience Reduces Repair Effort in Human-AI Chat"
   authors:
     - family-names: "da Fonseca"
       given-names: "André Luís Araujo"
     - family-names: "Chimenti"
       given-names: "Paula"
-  journal: "Frontiers in Artificial Intelligence"
+  journal: "Computers in Human Behavior"
   year: 2026
-  notes: "Under review"
+  notes: "Under submission"
