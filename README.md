@@ -2,7 +2,7 @@
 
 Analysis code and aggregate results for:
 
-> **The Communication Ceiling: Neither Capability Nor Experience Reduces Repair Effort in Human–AI Chat.** Manuscript under submission.
+> **The Communication Ceiling: Neither Capability Nor Experience Reduces Repair Effort in Human–AI Chat.** Manuscript under review.
 
 Three large-scale observational studies over ~2.5 million real human–AI conversations (WildChat-4.8M and LMSYS-Chat-1M) showing that the incidence of observable communicative repair plateaus beyond GPT-4-level capability and is invariant to user experience.
 
